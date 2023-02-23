@@ -2243,6 +2243,13 @@ ul.contact li a:hover {
     padding-bottom: 0.50em;
 }
 
+#main p {
+    font-size: 16px;
+}
+
+#main .logos {
+    text-align: center;
+}
 
 /*********************************************************************************/
 

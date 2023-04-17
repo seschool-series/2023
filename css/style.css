@@ -263,6 +263,18 @@ ul.style .first {
     border-top: none;
 }
 
+#list-speakers {
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 2rem;
+}
+
+#list-speakers li{
+    list-style-type: circle;
+    padding: 0.5rem;
+}
+
+
 
 /* Buttons */
 

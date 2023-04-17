@@ -39,6 +39,13 @@
             border-bottom: 1px solid #DDD;
             color: black;
             font-weight: bolder;
+            border: 1px solid #DDD;
+            width: 220px;
+        }
+
+        th.time,
+        td.time {
+            width: 30px;
         }
         
         th {
@@ -54,10 +61,12 @@
         
         .none-academic-coffee {
             color: rgb(95, 155, 95);
+            vertical-align: middle;
         }
         
         .none-academic-lunch {
             color: rgb(0, 120, 0);
+            vertical-align: middle;
         }
         
         .QndA {
@@ -104,7 +113,7 @@
                 <h1><a href="#">ISE School 2023</a></h1>
                 <sub-title class="tag">
                     The 9<sup>th</sup> International School on Software Engineering </br>
-                    July 10-13, 2023 <br/>
+                    July 10-12, 2023 <br/>
                     Bolzano, Italy
                 </sub-title>
             </div>
@@ -138,83 +147,43 @@
                             <strong>The schedule refers to UTC+2</strong>. Please check carefully the <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=ISE+opening+session&iso=20210928T0830&p1=2080" target="_blank">corresponding time</a>                            in your time zone.
                         </p>
                         <p>
-                            For on-presence all sessions will held in <strong>Room F6</strong> at <strong>Free University of Bozan-Bolzano</strong>
+                            For on-presence all sessions will held in <strong>Room F6</strong> at the <strong>Free University of Bozan-Bolzano</strong>
                         </p>
                         <p>
                             All sessions will be available online for registered students, <strong>TBA</strong>.
                         </p>
-                        <!--<table>
+                        <table>
                             <tr>
-                                <th>Time (UTC+2)</th>
-                                <th>Monday, July 4<sup>th</sup></th>
-                                <th>Tuesday, July 5<sup>th</sup></th>
-                                <th>Wednesday, July 6<sup>th</sup></th>
+                                <th class="time">Time (UTC+2)</th>
+                                <th>Monday, July 10<sup>th</sup></th>
+                                <th>Tuesday, July 11<sup>th</sup></th>
+                                <th>Wednesday, July 12<sup>th</sup></th>
                             </tr>
                             <tr>
-                                <td rowspan="2">08:30 - 10:00</td>
+                                <td class="time">08:30 - 09:00</td>
+                                <td class="none-academic ">Welcome</td>
                                 <td></td>
-                                <td rowspan="2"><a href="speakers.html#domenico">What is Software Security Development Lifecycle and why it is so important?</a> </td>
-                                <td rowspan="2"><a href="speakers.html#svetlana">Game theory for cyber security and privacy P1</a> </td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td class="QndA" style="border-top: 1px; border-right: none;">
-                                    Starting at 9:30, Welcome
-                                </td>
+                                <td class="time">09:00 - 12:00 </td>
+                                <td><a href="speakers.html#mariano">Security Testing of Mass Assignment Vulnerabilities in RESTful APIs</a> </td>
+                                <td><a href="speakers.html#laurie">Software Supply Chain Security</a> </td>
+                                <td><a href="speakers.html#stefano">When software vulns got real: security of cyber-physical systems.</a> </td>
                             </tr>
                             <tr>
-                                <td>10:00 - 10:30 </td>
-                                <td class="none-academic-coffee">Coffee Together </td>
-                                <td class="none-academic-coffee">Coffee Break </td>
-                                <td class="none-academic-coffee">Coffee Break </td>
-                            </tr>
-                            <tr>
-                                <td>10:30 - 12:00 </td>
-                                <td><a href="speakers.html#mariano">Security Testing of Android Apps</a> </td>
-                                <td><a href="speakers.html#domenico">Improving Software Security via Automatic Exploit  Generation</a> </td>
-                                <td><a href="speakers.html#svetlana">Game theory for cyber security and privacy P2</a> </td>
-                            </tr>
-                            <tr>
-                                <td>12:00 - 12:30 </td>
-                                <td class="QndA">Q&A session </td>
-                                <td class="QndA">Q&A session </td>
-                                <td class="QndA">Q&A session </td>
-                            </tr>
-                            <tr>
-                                <td>12:30 - 13:30 </td>
+                                <td class="time">12:00 - 14:00 </td>
                                 <td class="none-academic-lunch">Lunch break </td>
                                 <td class="none-academic-lunch">Lunch break </td>
                                 <td class="none-academic-lunch">Lunch break </td>
                             </tr>
                             <tr>
-                                <td>14:00 - 15:30 </td>
-                                <td><a href=" speakers.html#igor">Cybersecurity in production reality </a> </td>
-                                <td rowspan="4" class="none-academic" style="text-align: center; vertical-align: middle;">
-                                    <a href="https://asqt.cicero-software.com">ASQT workshop</a>
-                                </td>
-                                <td><a href=" speakers.html#attaullah">Behavioral Biometrics P1</a> </td>
+                                <td class="time">14:00 - 18:00 </td>
+                                <td><a href="speakers.html#mrui">On Making Software More Secure</a> </td>
+                                <td class="none-academic ">Social Event</td>
+                                <td></td>
                             </tr>
-                            <tr>
-                                <td>15:30 - 16:00 </td>
-                                <td class="none-academic-coffee ">Coffee Break </td>
-                                <td class="none-academic-coffee ">Coffee Break </td>
-                            </tr>
-                            <tr>
-                                <td>16:00 - 17:30 </td>
-                                <td><a href=" speakers.html#igor">Cybersecurity in production reality </a> </td>
-                                <td><a href="speakers.html#attaullah">Behavioral Biometrics P2</a> </td>
-                            </tr>
-                            <tr>
-                                <td>17:30 - 18:00 </td>
-                                <td class="QndA ">Q&A session </td>
-                                <td class="QndA ">Q&A session </td>
-                            </tr>
-                            <tr>
-                                <td>20:00</td>
-                                <td>EOD</td>
-                                <td class="none-academic ">Social Dinner </td>
-                                <td>EOD</td>
-                            </tr>
-                        </table>-->
+                        </table>
                 </div>
 
             </div>
